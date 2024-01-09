@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0544DF2B4D894B00CB09B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0544DE2B4D894B00CB09B3 /* SettingsView.swift */; };
 		BABD25A72B49318E00E404A8 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD25A62B49318E00E404A8 /* HikeApp.swift */; };
 		BABD25A92B49318E00E404A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD25A82B49318E00E404A8 /* ContentView.swift */; };
 		BABD25AB2B49319200E404A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABD25AA2B49319200E404A8 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0544DE2B4D894B00CB09B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BABD25A32B49318E00E404A8 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABD25A62B49318E00E404A8 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		BABD25A82B49318E00E404A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0544DD2B4D891E00CB09B3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				BABD25A82B49318E00E404A8 /* ContentView.swift */,
+				BA0544DE2B4D894B00CB09B3 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		BABD259A2B49318E00E404A8 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +78,7 @@
 			children = (
 				BAD10AD12B49585700E3727B /* Utility */,
 				BABD25A62B49318E00E404A8 /* HikeApp.swift */,
-				BABD25A82B49318E00E404A8 /* ContentView.swift */,
+				BA0544DD2B4D891E00CB09B3 /* Screen */,
 				BABD25AA2B49319200E404A8 /* Assets.xcassets */,
 				BABD25AC2B49319200E404A8 /* Preview Content */,
 				BAD10ACE2B49563000E3727B /* Component */,
@@ -179,6 +190,7 @@
 				BABD25A92B49318E00E404A8 /* ContentView.swift in Sources */,
 				BAD10ACD2B4954D100E3727B /* CardView.swift in Sources */,
 				BABD25A72B49318E00E404A8 /* HikeApp.swift in Sources */,
+				BA0544DF2B4D894B00CB09B3 /* SettingsView.swift in Sources */,
 				BAD10AD02B49565F00E3727B /* CustomBackgroundView.swift in Sources */,
 				BAF20AED2B4D3B3200B3CC88 /* MotionAnimationView.swift in Sources */,
 				BAD10AD32B49588400E3727B /* ColorExtension.swift in Sources */,
