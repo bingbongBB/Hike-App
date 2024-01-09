@@ -16,6 +16,8 @@
 		BAD10AD32B49588400E3727B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD10AD22B49588400E3727B /* ColorExtension.swift */; };
 		BAF20AE52B4A858A00B3CC88 /* CustomButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF20AE42B4A858A00B3CC88 /* CustomButtom.swift */; };
 		BAF20AE72B4A903D00B3CC88 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF20AE62B4A903D00B3CC88 /* GradientButton.swift */; };
+		BAF20AEB2B4D3AF200B3CC88 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF20AEA2B4D3AF200B3CC88 /* CustomCircleView.swift */; };
+		BAF20AED2B4D3B3200B3CC88 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF20AEC2B4D3B3200B3CC88 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BAD10AD22B49588400E3727B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		BAF20AE42B4A858A00B3CC88 /* CustomButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtom.swift; sourceTree = "<group>"; };
 		BAF20AE62B4A903D00B3CC88 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		BAF20AEA2B4D3AF200B3CC88 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		BAF20AEC2B4D3B3200B3CC88 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				BAD10ACC2B4954D100E3727B /* CardView.swift */,
 				BAD10ACF2B49565F00E3727B /* CustomBackgroundView.swift */,
 				BAF20AE42B4A858A00B3CC88 /* CustomButtom.swift */,
+				BAF20AEA2B4D3AF200B3CC88 /* CustomCircleView.swift */,
+				BAF20AEC2B4D3B3200B3CC88 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF20AE72B4A903D00B3CC88 /* GradientButton.swift in Sources */,
+				BAF20AEB2B4D3AF200B3CC88 /* CustomCircleView.swift in Sources */,
 				BABD25A92B49318E00E404A8 /* ContentView.swift in Sources */,
 				BAD10ACD2B4954D100E3727B /* CardView.swift in Sources */,
 				BABD25A72B49318E00E404A8 /* HikeApp.swift in Sources */,
 				BAD10AD02B49565F00E3727B /* CustomBackgroundView.swift in Sources */,
+				BAF20AED2B4D3B3200B3CC88 /* MotionAnimationView.swift in Sources */,
 				BAD10AD32B49588400E3727B /* ColorExtension.swift in Sources */,
 				BAF20AE52B4A858A00B3CC88 /* CustomButtom.swift in Sources */,
 			);
